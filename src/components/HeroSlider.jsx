@@ -16,46 +16,46 @@ function HeroSlider() {
         autoplaySpeed: 3000,
     };
     return (
-        <div className='relative mt-[-110px] '>
+        <div id='slider' className='relative mt-[-110px] '>
 
             <Slider {...settings}>
 
                 <div className=''>
-                    <img src="https://www.izmirteknoloji.com.tr/Content/iztekContent/images/slider/bg-slide-4.jpg" className='w-full relative' alt="slider" />
-                    <div className="slider-content absolute top-[30%] pl-40 ">
-                        <h1 className='text-[#0B64C6] text-2xl'>Elektronik Ücret Toplama Sistemi</h1>
-                        <p className='text-white text-7xl'>Ulaşım Kartlarında <br /> Yeni Bir Dönem</p>
-                        <p className='text-white mb-[25px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, alias!</p>
-                        <a href="" className='text-white p-5 bg-blue-500 text-center'>Online İşlemler</a>
+                    <img src="https://www.izmirteknoloji.com.tr/Content/iztekContent/images/slider/bg-slide-4.jpg" className='w-full relative h-[550px] md:h-[700px] lg:h-[950px]' alt="slider" />
+                    <div className="slider-content absolute top-[30%] pl-10 md:pl-20 lg:pl-30 xl:pl-40 ">
+                        <h1 className='text-[#0B64C6] text-base mt-5 md:mt-0 md:text-2xl my-6'>Elektronik Ücret Toplama Sistemi</h1>
+                        <p className='text-white text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl my-6'>Ulaşım Kartlarında <br /> Yeni Bir Dönem</p>
+                        <p className='text-white mb-[25px] text-[10px] md:text-base my-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, alias!</p>
+                        <a href="" className='text-white p-5 bg-blue-500 text-center hidden md:inline my-6'>Online İşlemler</a>
                     </div>
                     
                 </div>
 
                 <div className=''>
-                    <img src="https://www.izmirteknoloji.com.tr/Content/iztekContent/images/slider/bg-slide-3.jpg" className='w-full ' alt="slider" />
-                    <div className="slider-content absolute top-[30%] pl-40 ">
-                        <h1 className='text-[#0B64C6] text-2xl'>Elektronik Ücret Toplama Sistemi</h1>
-                        <p className='text-white text-7xl'>Ulaşım Kartlarında <br /> Yeni Bir Dönem</p>
-                        <p className='text-white mb-[25px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, alias!</p>
-                        <a href="" className='text-white p-5 bg-blue-500 text-center'>Online İşlemler</a>
+                    <img src="https://www.izmirteknoloji.com.tr/Content/iztekContent/images/slider/bg-slide-3.jpg" className='w-full relative h-[550px] md:h-[700px] lg:h-[950px]' alt="slider" />
+                    <div className="slider-content absolute top-[30%] pl-10 md:pl-20 lg:pl-30 xl:pl-40">
+                        <h1 className='text-[#0B64C6] text-base mt-5 md:mt-0 md:text-2xl my-6'>Elektronik Ücret Toplama Sistemi</h1>
+                        <p className='text-white text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl my-6'>Ulaşım Kartlarında <br /> Yeni Bir Dönem</p>
+                        <p className='text-white mb-[25px] text-[10px] md:text-base my-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, alias!</p>
+                        <a href="" className='text-white p-5 bg-blue-500 text-center hidden md:inline my-6'>Online İşlemler</a>
                     </div>
                 </div>
                 <div className=''>
-                    <img src="https://www.izmirteknoloji.com.tr/Content/iztekContent/images/slider/bg-slide-2.jpg" className='w-full ' alt="slider" />
-                    <div className="slider-content absolute top-[30%] pl-40 ">
-                        <h1 className='text-[#0B64C6] text-2xl'>Elektronik Ücret Toplama Sistemi</h1>
-                        <p className='text-white text-7xl'>Ulaşım Kartlarında <br /> Yeni Bir Dönem</p>
-                        <p className='text-white mb-[25px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, alias!</p>
-                        <a href="" className='text-white p-5 bg-blue-500 text-center'>Online İşlemler</a>
+                    <img src="https://www.izmirteknoloji.com.tr/Content/iztekContent/images/slider/bg-slide-2.jpg" className='w-full relative h-[550px] md:h-[700px] lg:h-[950px] ' alt="slider" />
+                    <div className="slider-content absolute top-[30%] pl-10 md:pl-20 lg:pl-30 xl:pl-40 ">
+                        <h1 className='text-[#0B64C6] text-base mt-5 md:mt-0 md:text-2xl my-6'>Elektronik Ücret Toplama Sistemi</h1>
+                        <p className='text-white text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl my-6'>Ulaşım Kartlarında <br /> Yeni Bir Dönem</p>
+                        <p className='text-white mb-[25px] text-[10px] md:text-base my-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, alias!</p>
+                        <a href="" className='text-white p-5 bg-blue-500 text-center hidden md:inline my-6'>Online İşlemler</a>
                     </div>
                 </div>
                 <div className=''>
-                    <img src="https://www.izmirteknoloji.com.tr/Content/iztekContent/images/slider/bg-slide-1.jpg" className='w-full ' alt="slider" />
-                    <div className="slider-content absolute top-[30%] pl-40 ">
-                        <h1 className='text-[#0B64C6] text-2xl'>Elektronik Ücret Toplama Sistemi</h1>
-                        <p className='text-white text-7xl'>Ulaşım Kartlarında <br /> Yeni Bir Dönem</p>
-                        <p className='text-white mb-[25px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, alias!</p>
-                        <a href="" className='text-white p-5 bg-blue-500 text-center'>Online İşlemler</a>
+                    <img src="https://www.izmirteknoloji.com.tr/Content/iztekContent/images/slider/bg-slide-1.jpg" className='w-full relative h-[550px] md:h-[700px] lg:h-[950px] ' alt="slider" />
+                    <div className="slider-content absolute top-[30%] pl-10 md:pl-20 lg:pl-30 xl:pl-40 ">
+                        <h1 className='text-[#0B64C6] text-base mt-5 md:mt-0 md:text-2xl my-6'>Elektronik Ücret Toplama Sistemi</h1>
+                        <p className='text-white text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl my-6'>Ulaşım Kartlarında <br /> Yeni Bir Dönem</p>
+                        <p className='text-white mb-[25px] text-[10px] md:text-base my-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, alias!</p>
+                        <a href="" className='text-white p-5 bg-blue-500 text-center hidden md:inline my-6'>Online İşlemler</a>
                     </div>
                 </div>
 

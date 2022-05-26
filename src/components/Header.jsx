@@ -2,10 +2,10 @@ import React from 'react'
 
 function Header() {
     return (
-        <header id="header" className='relative pt-5 pb-2 z-[100]'>
+        <header id="header" className='relative pt-2 pb-2 z-[100]'>
 
             <div className="container">
-                <img className='absolute top-0 left-0 z-10' src="https://www.izmirteknoloji.com.tr/Content/iztekContent/images/img-top-slider.png" alt="" />
+                <img className='absolute hidden md:block top-0 left-0 z-10' src="https://www.izmirteknoloji.com.tr/Content/iztekContent/images/img-top-slider.png" alt="" />
 
                 <div className="site-header-inner flex justify-between items-center bg-transparent">
 
@@ -14,7 +14,7 @@ function Header() {
                         <img className='w-[150px] h-[79px] p-2' src="https://www.izmirteknoloji.com.tr/Content/iztekContent/images/logo2.svg" alt="" />
                     </div>
 
-                    <ul className="main-menu flex gap-x-10">
+                    <ul className="main-menu hidden lg:flex lg:flex-row gap-x-10">
                         <li className='hover:text-[#1562B7] text-[#fff] transition-all delay-100 relative'><a className='after:content-[""] after:absolute after:w-full after:left-0 after:bottom-[-9px] after:bg-[#0069df] after:h-[3px]' href="/">ANASAYFA</a></li>
                         <li className='hover:text-[#1562B7] transition-all delay-100 text-[#fff]'><a href="#">KURUMSAL</a></li>
                         <li className='hover:text-[#1562B7] transition-all delay-100 text-[#fff]'><a href="#">HİZMETLER</a></li>
